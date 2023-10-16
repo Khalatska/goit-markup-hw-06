@@ -134,26 +134,34 @@ gap: 40px;
 /*----------HERO----------*/
 
 .hero { 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/bg-mob.jpg);
+    
     max-width: 1440px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 72px 0px;
      
 }
+
+@media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero  { background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/bg-mob-2x.jpg);
+            }
+
+        }
+
 .hero-title { color: var(--white);
     text-align: center;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 1.07;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    max-width: 496px;
+    max-width: 288px;
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 72px;
+    
 }
 .hero-btn { color: var(--white);
     background-color: var(--iris);
@@ -918,6 +926,28 @@ align-items: center;
     .service-item {
         width: calc((100% - 24px) / 2);
     }
+
+    .hero {
+        padding: 112px 0px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/bg-tab.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero  { background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/bg-tab-2x.jpg);
+            }
+
+        }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        margin-bottom: 48px;
+    }
+
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -967,5 +997,23 @@ align-items: center;
     .service-item {
         width: calc((100% - 48px) / 3);
     }
+
+    .hero {
+        padding: 188px 0px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/people-office.jpg);
+    }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero  { background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/people-office-2x.jpg);
+            }
+
+        }
+     
+
+    .hero-title {
+        margin-bottom: 48px;
+    }
+
     
 }
