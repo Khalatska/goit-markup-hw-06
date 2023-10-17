@@ -151,6 +151,19 @@ gap: 40px;
     
 }
 
+.mob-menu{
+    width: 100vw;
+    height: 100vw;
+    background-color: var(--cloud);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    padding: 16px 24px 40px 16px;
+
+}
+
+ 
 /*----------HERO----------*/
 
 .hero { 
