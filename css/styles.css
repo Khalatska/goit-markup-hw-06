@@ -119,6 +119,7 @@ color: var(--ocean);}
 
 }
 
+ 
 
 .address { font-style: normal;
     display: flex;
@@ -207,6 +208,9 @@ text-transform: capitalize;
 color: var(--navyblue);
 
 }
+.currentt {
+    color: var(--ocean);
+}
 .mob-item-menu:hover,
 .mob-item-menu:focus {
     color: var(--ocean);
@@ -217,12 +221,23 @@ flex-direction: column;
 gap: 24px;
 }
 
+
+.address-contacts-emeil {
+    font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--slate);
+ 
+
+}
 .address-contacts-mob {
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--slate);
+color: var(--ocean);
+ 
 
 }
 
@@ -235,6 +250,7 @@ color: var(--slate);
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-right: auto;
 
 }
 
