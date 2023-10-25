@@ -388,6 +388,9 @@ display: none;
 /*----------TEAM----------*/
 
 
+.team-container {
+    max-width:  296px
+}
 .team { background-color: var(--cloud);
     padding-top: 96px;
     padding-bottom: 96px;
